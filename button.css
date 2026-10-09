@@ -1,0 +1,55 @@
+button.disabled {
+    background: #CCCCCC;
+    cursor: not-allowed;
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #666666;
+}
+
+button,  button:not(:disabled) {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 154px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #666666;
+}
+
+button:hover {
+    background-color: #CCCCCC;
+}
+
+.btn-small {
+    padding: 8px 24px;
+    height: 40px;
+    left: 958px;
+    top: 619px;
+}
+
+.btn-medium {
+    padding: 16px 24px;
+    height: 48px;
+    left: 775px;
+    top: 614px;
+}
+
+.btn-big {
+    padding: 20px 24px;
+    height: 64px;
+    left: 573px;
+    top: 607px;
+}
